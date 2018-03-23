@@ -1,0 +1,180 @@
+body {
+	text-align: center;
+	height: 100%;
+	position: relative;
+}
+
+h1 {
+	font-family: ACcent sf;
+	font-size: 4em;
+}
+
+
+
+#bigBox {
+	display: inline-block;
+	padding: 20px 60px 90px 60px;
+	text-shadow: 3px 3px rgba(105,105,105,.6);
+}
+
+#topBox {
+	margin-top: 100px;
+}
+
+
+
+/*******************BUttons**********************/
+
+
+
+
+.clickTab {
+	display: inline-block;
+	border: 1px solid #000;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 33px;
+	cursor: pointer;
+	color: beige;
+	font-size: 18px;
+	font-family: roboto;
+	font-weight: bold;
+	text-shadow: -3px 2px #2F4F4F;
+	border-radius: 7px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px rgba(105,105,105, .6);
+}
+
+#all_tab {
+	background: linear-gradient(to right, red , purple);
+}
+
+#all_tab:hover {
+	border: 3px solid #fff;
+}
+
+#all_tab:disabled {
+	background: linear-gradient(to left, red , purple);
+	border: 3px solid #fff;
+}
+
+#online_tab {
+	background: linear-gradient(to right, blue, #20B2AA);
+}
+
+#online_tab:hover {
+	border: 3px solid #fff;
+}
+
+#online_tab:disabled {
+	background: linear-gradient(to left, blue, #20B2AA);
+	border: 3px solid #fff;
+}
+
+#offline_tab {
+	background: linear-gradient(to right, #00A86B, yellow);
+}
+
+#offline_tab:hover {
+	border: 3px solid #fff;
+}
+
+#offline_tab:disabled {
+	background: linear-gradient(to left, #00A86B, yellow);
+	border: 3px solid #fff;
+}
+
+
+/******------------*Appendingnign*----------*************/
+
+
+
+a {
+	text-decoration: none;
+	font-size: 2em;
+	margin-top: 40px;
+	display: inline-block;
+	font-family: roboto;
+	font-weight: bold;
+	color: #1e0606;
+	margin-left: 50px;
+	text-shadow: 0 0;
+}
+
+a:hover,
+a:focus {
+		color: #7f1a1a;
+}
+
+
+.listy {
+	background-color: #f1bbbb;
+	border: 5px solid #a02121;
+	display: block;
+	overflow: auto;
+	margin-top: 15px;
+	border-radius: 9px;
+}
+
+img {
+	border-radius: 50%;
+	height: 120px;
+	margin: 10px;
+	display: inline-block;
+	float: left;
+	border: 3px solid #000;
+	margin-left: 40px;
+}
+
+
+
+
+#streamerBox {
+	display: block;
+	max-width: 600px;
+	margin: auto;
+	margin-top: 60px;
+}
+
+
+/*--------------------------------------*/
+
+.nameMargin {
+	margin-top: 0;
+}
+
+
+.onlineStyle {
+	color: green;
+	text-shadow: 0 0 10px #00FF00;
+	font-family: roboto;
+	font-weight: bold;
+	
+}
+
+.offlineStyle {
+	color: #8B0000;
+	text-shadow: 0 0 10px #FF0000;
+	font-family: roboto;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	height: -120px;
+}
