@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	text-align: center;
+	background-color: #ABFFF8;
+}
+
+h1 {
+	font-family: roboto;
+	color: #78B2AE;
+	font-weight: bold;
+	
+}
+
+p {
+	font-family: sans-serif;
+	color: #1A5699;
+	font-weight: bold;
+}
+
+button {
+	background-color: #CC6960;
+	color: #FFDCD2;
+	padding: 20px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 2em;
+	font-weight: bold;
+	box-shadow: 5px 10px #39FFF8;
+}
+
+.box {
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 70px;
+	margin-top: 30px;
+	background-color: aliceblue;
+	border: 7px solid #8FD4CE;
+	max-width: 35%;
+	max-height: 20%;
+	border-radius: 20px;
+	word-wrap: break-word;
+}
+
+#message {
+	font-family: roboto;
+	font-size: 20px;
+	color: midnightblue;
+}
+
+#another {
+	color: darkcyan;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 40px;
+	color: darkgoldenrod;
+}
