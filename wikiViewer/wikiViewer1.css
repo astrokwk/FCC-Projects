@@ -1,0 +1,102 @@
+body {
+	background-color: #800020;
+	text-align: center;
+	font-family: roboto;
+}
+
+h1{
+	color: #f0e68c;
+	margin-top: 10%;
+}
+
+#morePages {
+	padding: 100px;
+	padding-top: 10px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+li {
+	color: darkgreen;
+	background-color: aliceblue;
+	list-style: none;
+	text-align: justify;
+	padding: 10px;
+	border: 1px solid #244F2F;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	width: 500px;
+	margin-left: 27%;
+	animation: fadein 2s;
+}
+
+.mag {
+	height: 18px;
+	margin-right: 10px;
+}
+
+input{
+	height: 45px;
+	width: 400px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+button {
+	padding: 20px;
+	padding-top: 8px;
+	padding-bottom: 11px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.article {
+	height: 25px;
+	margin-left: 15px;
+	padding-top: 20px;
+}
+
+a.arti {
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	background-color: bisque;
+	border-radius: 10px;
+	border: 2px solid #F77430;
+	color: #F77430;
+}
+
+a.arti:after {
+	margin-bottom: 10px;
+	content: '';
+}
+
+a.results {
+	text-decoration: none;
+	color: #244F2F;
+	font-weight: bold;
+}
+
+a.results:hover {
+	color: mediumvioletred;
+}
+
+
+.hide {
+	display: none;
+}
+
+.unhide {
+	margin-top: 100px;
+	display: block;
+	animation: fadein 2s;
+	color: beige;
+	font-size: 20px;
+}
