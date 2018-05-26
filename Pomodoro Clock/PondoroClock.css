@@ -1,0 +1,100 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #f8ddd7;
+}
+
+.miso {
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	color: #701f26;
+}
+
+.container {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.container > div {
+	width: 330px;
+	margin: 10px;
+	text-align: center;
+}
+
+.clockOutline {
+	height: 320px;
+	width: 320px;
+	background-color: #392d33;
+	border: 15px solid #bc94a7;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.timeContainer {
+	margin-top: 110px
+}
+
+#time {
+color: #f8e5ac;
+font-size: 80px;
+margin: 0;
+}
+
+#startButton {
+	width: 150px;
+	height: 60px;
+	font-size: 40px;
+	background-color:#bc94a7;
+	margin-top: 20px;
+	color: #f8e5ac;
+	border-radius: 50%;
+}
+
+.sButton {
+	width: 150px;
+	height: 60px;
+	font-size: 40px;
+	background-color:#bc94a7;
+	margin-top: 20px;
+	color: #f8e5ac;
+	border-radius: 50%;
+	text-decoration: line-through;
+}
+
+
+.buttonContainer {
+	text-align: center;
+}
+
+input {
+	background-color: transparent;
+	border: none;
+	width: 30px;
+	text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/*----------------Animated GIF ----------------------*/
+
+.leftCont {
+	float: left;
+}
+
+.cat {
+	height: 140px;
+}
+
+.rightCont {
+	float: right;
+}
+.pika {
+	height: 110px;
+}

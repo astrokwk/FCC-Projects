@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<title>Pomodoro Clock, Me Likey</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+		
+		<link rel="stylesheet" href="PondoroClock.css"/>
+	</head>
+	<body>
+	
+		<div class="miso">
+			<h1>Pomodoro Clock</h1>
+			<h2>Stay focused and Like it!!</h2>
+			<h3>You need to get SH*T done!</h3>
+		</div>
+		
+
+		
+			<div class="container">
+				
+				<div class="leftCont">
+					<img src="http://bestanimations.com/Animals/Mammals/Cats/cats/cute-kitty-animated-gif-12.gif" class="cat" height="110"/>
+					<div>
+						<button id="catLeft" class="meoow">-</button>
+						<input type="number" id="breakTime" value="5">
+						<button  id="catPlus" class="meoow">+</button>
+					</div>
+				</div>
+				
+				
+				<div class="clockOutline">
+						<div class="timeContainer">
+							<h1 id="time">25:00</h1>
+							<button id="startButton">Start</button>
+						</div>
+				</div>
+				
+				
+				<div class="rightCont">
+					<img src="https://media.giphy.com/media/ZqSwxN62j8MPS/source.gif" class="pika"/>
+						<div>
+							<button id="Minun">-</button>
+						<!--	<span id="activityTime">25</span> -->
+							<input type="number" id="activityTime" value = "25">
+							<button id="Plusle">+</button>
+					</div>
+				</div>
+				
+
+			</div>
+		
+		<div class="buttonContainer">
+			<button id="stop">Stop</button>
+			<button id="resume">Resume</button>
+			<button id="reset">Reset</button>
+		</div>
+		
+
+		
+		
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="PondoroClock.js"></script>	
+	</body>
+</html>
